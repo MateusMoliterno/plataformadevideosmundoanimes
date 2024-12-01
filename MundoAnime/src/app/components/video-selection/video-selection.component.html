@@ -1,0 +1,43 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Vollkorn:ital,wght@1,596&display=swap');
+  </style>   
+
+<div class="container">
+  
+    <div class="tittle">
+
+      <button class="logout" (click)="logout()">Logout</button>
+      <img class="akatsukinuvem1" src="./../assets/Anime-Logo-Transparent - Copia.png" alt="">
+      <h1>Mundo anime</h1>
+      <img class="akatsukinuvem2" src="./../assets/Anime-Logo-Transparent.png" alt="">
+  
+    </div>
+
+    <p class="textsearchbar">Veja os melhores momentos do seu anime favorito! <br> basta inserir o nome do anime na barra de pesquisa.</p>
+
+    <div class="search-bar">
+    <img class="iconsearchbar" src="../../../assets/1490129321-rounded10_82180 (1).ico" style="height: 45px;" alt="">
+    <input class="pesquisa" type="text" [(ngModel)]="searchQuery" placeholder="Buscar vídeos..." (input)="filterVideos()" />
+    
+   </div>
+  
+  <div class="cardvideos" *ngIf="filteredVideos.length > 0; else noVideos">
+
+    <div *ngFor="let video of filteredVideos" class="video-card">
+
+      <img [src]="video.thumbnail"  style="width: 250px; height: 130px;" alt="Thumbnail" class="video-image" />
+      <h3 style="font-size: 16px; width: 252px;">{{ video.title }}</h3>
+      <p style="font-size: 13px; width: 251px;">{{ video.description }}</p>
+      <p style="font-size: 12px;">Publicado em: {{ video.uploadedAt | date: 'dd/MM/yyyy' }}</p>
+      
+      <button (click)="viewVideo(video.id)" class="btnassistir">Assistir</button>
+
+    </div>
+  </div>
+  
+  
+  <ng-template #noVideos>
+    <p>Nenhum vídeo encontrado.</p>
+  </ng-template>
+
+</div>

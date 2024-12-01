@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "d566",
+      "userId": "google-oauth2|117383798687748395025",
+      "name": "Paulo Mateus Moliterno Queiros",
+      "email": "mateusmoliterno12@gmail.com",
+      "picture": "https://lh3.googleusercontent.com/a/ACg8ocLRi5Ebze1sJPvk4291cowhRdZWTn0EsBjagq4eLjOeeiSkfw=s96-c",
+      "socialLoginProvider": "Google"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "Naruto AMV my fight, i will show you",
+      "description": "Nenhuma descrição foi adicionada ao vídeo.",
+      "url": "https://www.youtube.com/watch?v=Vwhg2pqd-RE",
+      "thumbnail": "https://i.ytimg.com/vi/Vwhg2pqd-RE/hqdefault.jpg",
+      "views": 0,
+      "likes": 0,
+      "uploadedAt": "2016-05-17T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Naruto AMV - On My Own",
+      "description": "amv naruto - on My own artista-ashes remain",
+      "url": "https://www.youtube.com/watch?v=OqBbq781WcY",
+      "thumbnail": "https://i.ytimg.com/vi/OqBbq781WcY/hqdefault.jpg",
+      "views": 0,
+      "likes": 0,
+      "uploadedAt": "2019-10-05T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "[AMV] Naruto Vs Pain - Sucker Believer (Imagine Dragons)cle",
+      "description": "naruto vs pain amv full fight ao som de imagine dragons",
+      "url": "https://www.youtube.com/watch?v=d8Qf-VLbU4Q",
+      "thumbnail": "https://i.ytimg.com/vi/d8Qf-VLbU4Q/hqdefault.jpg",
+      "views": 0,
+      "likes": 0,
+      "uploadedAt": "2019-02-13T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Three Days Grace – It's All Over (AMV) Bleach",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=hc8hW26vuI4",
+      "thumbnail": "https://i.ytimg.com/vi/hc8hW26vuI4/hqdefault.jpg",
+      "views": 0,
+      "likes": 0,
+      "uploadedAt": "2020-04-08T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Shinigamis vs Quincys [AMV] - Comatose/Impossible",
+      "description": "amv bleach, musica comatose, artista: skillet",
+      "url": "https://www.youtube.com/watch?v=mYTPCT_7U94",
+      "thumbnail": "https://i.ytimg.com/vi/mYTPCT_7U94/hqdefault.jpg",
+      "views": 0,
+      "likes": 0,
+      "uploadedAt": "2022-11-23T00:00:00Z"
+    }
+  ]
+}

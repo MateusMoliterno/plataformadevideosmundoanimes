@@ -1,0 +1,25 @@
+   <div class="container" *ngIf="video">
+
+    <h2>{{ video.title }}</h2>
+    <p>{{ video.description }}</p>
+    <p>Publicado em: {{ video.uploadedAt | date: 'dd/MM/yyyy' }}</p>
+    <p>Visualizações: {{ video.views }}</p>
+    <p>Likes: {{ video.likes }}</p>
+    
+    <div class="video-container">
+      <iframe
+        [src]="videoUrl"
+        width="100%"
+        height="500px"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    
+    <button (click)="incrementVideoLikes(video.id, video.likes)">Curtir 👍</button>
+    <button (click)="goBack()">Voltar</button>
+  </div>
+  
+  
+  

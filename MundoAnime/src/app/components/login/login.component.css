@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-size:cover;
+    
+}
+
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 130px;
+}
+
+h1{
+    font-family: "Rock Salt", cursive;
+    color: red;
+    -webkit-text-stroke: 0.1px white;
+    font-size: 50px;
+}
+
+.nuvemakatsukititulo{
+    width: 100px;
+    height: auto
+}
+
+.nuvemakatsukititulo2{
+    width: 100px;
+    height: auto; 
+    transform: sacaleX(-1)
+}
+
+.cardlogin{
+    border: solid red 1px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    width: 65vh;
+    height: 23vh;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+h1{
+    font-family: "Rock Salt", cursive;
+}
+
+p{
+    color: black;
+}
+
+input{
+    border-radius: 5px;
+    border: solid red 0.1px;
+    outline: none;
+    height: 3vh;
+    width: 16vw;
+    margin-bottom: 7px;
+}
+
+.loginfacebook{
+    border: solid red 1px;
+    border-radius: 7px;
+    width: 17vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 17px;
+}
+
+.logingoogle{
+    border: solid red 1px;
+    border-radius: 7px;
+    width: 17vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 17px;
+    
+}
+
+.descricaologin{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.btn{
+    border: solid red 1px;
+    border-radius: 7px;
+    width: 8vw;
+    height: 4vh;
+    background-color: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.textcardlogin{
+    font-size: 19px;
+}
+
+.text2cardlogin{
+    font-size: 19px;
+}
+
+.imgfacebooklogo{
+    width: 21px;
+    height: 22px;
+}
+
+.imggooglelogo{
+    width: 21px;
+    height: 22px;
+}
+
+.textlogo2{
+    font-size: 19px;
+}
+
+.narutologo{
+    width: 130px; 
+    height: 70px;
+}
+
+.bleachlogo{
+    width: 130px;
+    height: 70px;
+}
+
+.dragonlogo{
+    width: 130px;
+    height: 72px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    .tittle {
+        height: 100px;
+    }
+
+    .logos {
+        gap: 30px;
+    }
+
+    input, 
+    .loginfacebook, 
+    .logingoogle, 
+    .btn {
+        max-width: 250px;
+    }
+
+    .narutologo, 
+    .bleachlogo, 
+    .dragonlogo {
+        width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .tittle {
+        height: 80px;
+    }
+
+    input, 
+    .loginfacebook, 
+    .logingoogle, 
+    .btn {
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .narutologo, 
+    .bleachlogo, 
+    .dragonlogo {
+        width: 60px;
+    }
+}
